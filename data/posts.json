@@ -1,0 +1,23 @@
+[
+    {
+        "title": "My Current Workflow With AI",
+        "date": "2025-04-01",
+        "contentHtml": "<p>If you haven't explored how AI can support your workflow, you might be working harder than you need to. Just saying... </p>",
+        "id": 1,
+        "thumbnail": "images/MyCurrentWorkflowwithAI.png"
+    },
+    {
+        "title": "Growth Mindset vs. Fixed Mindset",
+        "date": "2025-03-01",
+        "contentHtml": "<p>A growth mindset means trusting that we can improve through effort, feedback, and time.</p>",
+        "id": 2,
+        "thumbnail": "images/growthmindset.webp"
+    },
+    {
+        "title": "The Newest Graduate in the Building",
+        "date": "2025-06-01",
+        "contentHtml": "<p>So...this weekend I did a thing. I achieved a goal I've been chasing for over a decade: I became a college graduate!</p>",
+        "id": 3,
+        "thumbnail": "images/DSCF1939.jpg"
+    }
+]
