@@ -21,7 +21,7 @@ export default function Post({ postData }) {
         {postData.thumbnail && (
           <div style={{ marginBottom: 12 }}>
             <Image
-              src={`/${postData.thumbnail.replace(/^\/+/, '')}`}
+              src={postData.thumbnail}
               alt={postData.title}
               width={800}
               height={500}
