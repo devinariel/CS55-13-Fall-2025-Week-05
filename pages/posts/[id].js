@@ -18,8 +18,21 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        <h1>{postData.title}</h1>
-        <Date dateString={postData.date} />
+        {postData.thumbnail && (
+          <div style={{ marginBottom: 12 }}>
+            <Image
+              src={`/${postData.thumbnail.replace(/^\/+/, '')}`}
+              alt={postData.title}
+              width={800}
+              height={500}
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+        )}
+        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <div className={utilStyles.lightText}>
+          <Date dateString={postData.date} />
+        </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
